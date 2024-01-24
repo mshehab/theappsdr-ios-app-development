@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Matching_Game" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="dU4-ki-LLh">
+                                <rect key="frame" x="16" y="99" width="361" height="78.333333333333314"/>
+                                <subviews>
+                                    <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i4E-xD-DNx">
+                                        <rect key="frame" x="0.0" y="0.0" width="78.333333333333329" height="78.333333333333329"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="i4E-xD-DNx" secondAttribute="height" multiplier="1:1" id="Dpg-hL-r0Y"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <backgroundConfiguration key="background" image="covered_tile"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="tileClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MfB-GZ-4W1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XXE-cd-9gy">
+                                        <rect key="frame" x="94.333333333333343" y="0.0" width="78.333333333333343" height="78.333333333333329"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="XXE-cd-9gy" secondAttribute="height" multiplier="1:1" id="dYw-HV-ev9"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <backgroundConfiguration key="background" image="covered_tile"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="tileClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CAr-9R-8Po"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QRF-co-Hue">
+                                        <rect key="frame" x="188.66666666666666" y="0.0" width="77.999999999999972" height="78.333333333333329"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="QRF-co-Hue" secondAttribute="height" multiplier="1:1" id="sKj-ud-ndt"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <backgroundConfiguration key="background" image="covered_tile"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="tileClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ebB-qW-Ygn"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GLi-Me-ozO">
+                                        <rect key="frame" x="282.66666666666669" y="0.0" width="78.333333333333314" height="78.333333333333329"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="GLi-Me-ozO" secondAttribute="height" multiplier="1:1" id="vMn-IG-R1m"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <backgroundConfiguration key="background" image="covered_tile"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="tileClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2lZ-vq-apK"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="oS2-th-lXF">
+                                <rect key="frame" x="16" y="195" width="361" height="78.333333333333314"/>
+                                <subviews>
+                                    <button opaque="NO" tag="104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4EV-2o-8ae">
+                                        <rect key="frame" x="0.0" y="0.0" width="78.333333333333329" height="78.333333333333329"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="4EV-2o-8ae" secondAttribute="height" multiplier="1:1" id="0Hi-2i-qTU"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <backgroundConfiguration key="background" image="covered_tile"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="tileClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a1T-ol-tIJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="105" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9bi-lC-9kh">
+                                        <rect key="frame" x="94.333333333333343" y="0.0" width="78.333333333333343" height="78.333333333333329"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="9bi-lC-9kh" secondAttribute="height" multiplier="1:1" id="95t-cF-k1J"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <backgroundConfiguration key="background" image="covered_tile"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="tileClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="myq-Rf-Zbe"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="106" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H0P-fW-ufc">
+                                        <rect key="frame" x="188.66666666666666" y="0.0" width="77.999999999999972" height="78.333333333333329"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="H0P-fW-ufc" secondAttribute="height" multiplier="1:1" id="Mbf-I5-bMJ"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <backgroundConfiguration key="background" image="covered_tile"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="tileClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LvK-X3-TsB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="107" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j6J-WN-65o">
+                                        <rect key="frame" x="282.66666666666669" y="0.0" width="78.333333333333314" height="78.333333333333329"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="j6J-WN-65o" secondAttribute="height" multiplier="1:1" id="9Rt-ij-0g7"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <backgroundConfiguration key="background" image="covered_tile"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="tileClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mVL-XM-rF3"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Matching Game" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2hQ-EF-MRs">
+                                <rect key="frame" x="16" y="59" width="361" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="RLP-13-IFq">
+                                <rect key="frame" x="16" y="383.33333333333331" width="361" height="78.333333333333314"/>
+                                <subviews>
+                                    <button opaque="NO" tag="112" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P3o-DZ-WRf">
+                                        <rect key="frame" x="0.0" y="0.0" width="78.333333333333329" height="78.333333333333329"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="P3o-DZ-WRf" secondAttribute="height" multiplier="1:1" id="36Z-zW-Pg7"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <backgroundConfiguration key="background" image="covered_tile"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="tileClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l5N-sb-udx"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="113" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVW-cZ-Yuk">
+                                        <rect key="frame" x="94.333333333333343" y="0.0" width="78.333333333333343" height="78.333333333333329"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="UVW-cZ-Yuk" secondAttribute="height" multiplier="1:1" id="eDZ-Cf-Kgy"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <backgroundConfiguration key="background" image="covered_tile"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="tileClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xEa-TV-LEI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="114" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WvM-Dn-pNi">
+                                        <rect key="frame" x="188.66666666666666" y="0.0" width="77.999999999999972" height="78.333333333333329"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="WvM-Dn-pNi" secondAttribute="height" multiplier="1:1" id="6a7-SQ-Son"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <backgroundConfiguration key="background" image="covered_tile"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="tileClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xHB-QI-R11"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="115" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8rH-9L-YP6">
+                                        <rect key="frame" x="282.66666666666669" y="0.0" width="78.333333333333314" height="78.333333333333329"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="8rH-9L-YP6" secondAttribute="height" multiplier="1:1" id="F6E-fv-gxL"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <backgroundConfiguration key="background" image="covered_tile"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="tileClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2gO-Pg-JgP"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="RlD-Kk-VWn">
+                                <rect key="frame" x="16" y="289.33333333333331" width="361" height="78"/>
+                                <subviews>
+                                    <button opaque="NO" tag="108" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wUC-pA-8PI">
+                                        <rect key="frame" x="0.0" y="0.0" width="78.333333333333329" height="78"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="wUC-pA-8PI" secondAttribute="height" multiplier="1:1" id="XAW-Z7-hqE"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <backgroundConfiguration key="background" image="covered_tile"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="tileClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ndi-yh-YvN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="109" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mwk-DY-Acr">
+                                        <rect key="frame" x="94.333333333333343" y="0.0" width="78.333333333333343" height="78"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Mwk-DY-Acr" secondAttribute="height" multiplier="1:1" id="7Mj-vv-buc"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <backgroundConfiguration key="background" image="covered_tile"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="tileClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ttv-Xd-Hzu"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="110" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aFo-W5-bWS">
+                                        <rect key="frame" x="188.66666666666666" y="0.0" width="77.999999999999972" height="78"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="aFo-W5-bWS" secondAttribute="height" multiplier="1:1" id="FbT-Gg-qLD"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <backgroundConfiguration key="background" image="covered_tile"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="tileClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mnz-fc-8Mj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="111" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="opN-qk-42v">
+                                        <rect key="frame" x="282.66666666666669" y="0.0" width="78.333333333333314" height="78"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="opN-qk-42v" secondAttribute="height" multiplier="1:1" id="aWQ-ix-DZz"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <backgroundConfiguration key="background" image="covered_tile"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="tileClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nkA-3U-nmF"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Status" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vG-2Y-9rQ">
+                                <rect key="frame" x="16" y="477.66666666666669" width="361" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4VO-vh-DGR">
+                                <rect key="frame" x="16" y="514" width="361" height="34.333333333333371"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Reset Game"/>
+                                <connections>
+                                    <action selector="resetGameClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ByQ-nZ-x2Z"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="oS2-th-lXF" firstAttribute="trailing" secondItem="dU4-ki-LLh" secondAttribute="trailing" id="28O-vt-ZY9"/>
+                            <constraint firstItem="dU4-ki-LLh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="2Tt-Ih-hx8"/>
+                            <constraint firstItem="RlD-Kk-VWn" firstAttribute="top" secondItem="oS2-th-lXF" secondAttribute="bottom" constant="16" id="7g3-N4-FUr"/>
+                            <constraint firstItem="2hQ-EF-MRs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="97j-xh-zFy"/>
+                            <constraint firstItem="oS2-th-lXF" firstAttribute="leading" secondItem="dU4-ki-LLh" secondAttribute="leading" id="9jb-2E-3Z0"/>
+                            <constraint firstItem="5vG-2Y-9rQ" firstAttribute="top" secondItem="RLP-13-IFq" secondAttribute="bottom" constant="16" id="H1w-h8-NNP"/>
+                            <constraint firstItem="RLP-13-IFq" firstAttribute="trailing" secondItem="RlD-Kk-VWn" secondAttribute="trailing" id="HJI-WW-DIo"/>
+                            <constraint firstItem="oS2-th-lXF" firstAttribute="top" secondItem="dU4-ki-LLh" secondAttribute="bottom" constant="17.666666666666686" id="KkX-dq-a42"/>
+                            <constraint firstItem="RlD-Kk-VWn" firstAttribute="leading" secondItem="oS2-th-lXF" secondAttribute="leading" id="LOH-ky-d84"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2hQ-EF-MRs" secondAttribute="trailing" constant="16" id="Nuo-qT-b72"/>
+                            <constraint firstItem="RlD-Kk-VWn" firstAttribute="trailing" secondItem="oS2-th-lXF" secondAttribute="trailing" id="RXI-3Z-Z65"/>
+                            <constraint firstItem="5vG-2Y-9rQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="U0i-DH-ACe"/>
+                            <constraint firstItem="4VO-vh-DGR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="aKT-sx-drX"/>
+                            <constraint firstItem="dU4-ki-LLh" firstAttribute="top" secondItem="2hQ-EF-MRs" secondAttribute="bottom" constant="16" id="e4F-0A-GNM"/>
+                            <constraint firstItem="RLP-13-IFq" firstAttribute="top" secondItem="RlD-Kk-VWn" secondAttribute="bottom" constant="16" id="hLn-or-ggD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5vG-2Y-9rQ" secondAttribute="trailing" constant="16" id="kj2-e3-415"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4VO-vh-DGR" secondAttribute="trailing" constant="16" id="pUH-H4-K0F"/>
+                            <constraint firstItem="RLP-13-IFq" firstAttribute="leading" secondItem="RlD-Kk-VWn" secondAttribute="leading" id="rO9-fm-4Ms"/>
+                            <constraint firstItem="2hQ-EF-MRs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="sMF-je-xF4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dU4-ki-LLh" secondAttribute="trailing" constant="16" id="sbG-HH-eeg"/>
+                            <constraint firstItem="4VO-vh-DGR" firstAttribute="top" secondItem="5vG-2Y-9rQ" secondAttribute="bottom" constant="16" id="u4N-R7-92S"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="gameStatusLabel" destination="5vG-2Y-9rQ" id="adq-oj-wXF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-541.22137404580155" y="-108.45070422535211"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="covered_tile" width="512" height="512"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
