@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6056FB7E2BA8E3EE003C2C69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6056FB7D2BA8E3EE003C2C69 /* AppDelegate.swift */; };
+		6056FB802BA8E3EE003C2C69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6056FB7F2BA8E3EE003C2C69 /* SceneDelegate.swift */; };
+		6056FB852BA8E3EE003C2C69 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6056FB842BA8E3EE003C2C69 /* Base */; };
+		6056FB872BA8E3F0003C2C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6056FB862BA8E3F0003C2C69 /* Assets.xcassets */; };
+		6056FB8A2BA8E3F0003C2C69 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6056FB892BA8E3F0003C2C69 /* Base */; };
+		6056FB952BA8E444003C2C69 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6056FB942BA8E444003C2C69 /* LoginViewController.swift */; };
+		6056FB972BA8E451003C2C69 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6056FB962BA8E451003C2C69 /* RegisterViewController.swift */; };
+		6056FB992BA8E45B003C2C69 /* GiftListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6056FB982BA8E45B003C2C69 /* GiftListsViewController.swift */; };
+		6056FB9B2BA8E464003C2C69 /* GiftListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6056FB9A2BA8E464003C2C69 /* GiftListViewController.swift */; };
+		6056FB9D2BA8E46E003C2C69 /* CreateGiftListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6056FB9C2BA8E46E003C2C69 /* CreateGiftListViewController.swift */; };
+		6056FBA02BA8E5A8003C2C69 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 6056FB9F2BA8E5A8003C2C69 /* Alamofire */; };
+		6056FBA22BA8E5A8003C2C69 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 6056FBA12BA8E5A8003C2C69 /* AlamofireDynamic */; };
+		6056FBA52BA8E5B2003C2C69 /* PKHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 6056FBA42BA8E5B2003C2C69 /* PKHUD */; };
+		6056FBA82BA8E5BB003C2C69 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 6056FBA72BA8E5BB003C2C69 /* SwiftyJSON */; };
+		6056FBAB2BA8E5CA003C2C69 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 6056FBAA2BA8E5CA003C2C69 /* Kingfisher */; };
+		6056FBAE2BA8EC10003C2C69 /* GiftTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6056FBAD2BA8EC10003C2C69 /* GiftTableViewCell.xib */; };
+		6056FBAF2BA8EC10003C2C69 /* GiftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6056FBAC2BA8EC10003C2C69 /* GiftTableViewCell.swift */; };
+		6056FBB22BA8EC1F003C2C69 /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6056FBB12BA8EC1F003C2C69 /* ProductTableViewCell.xib */; };
+		6056FBB32BA8EC1F003C2C69 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6056FBB02BA8EC1F003C2C69 /* ProductTableViewCell.swift */; };
+		605E9AD12BAA07590095585E /* GiftList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605E9AD02BAA07590095585E /* GiftList.swift */; };
+		605E9AD32BAA07860095585E /* GiftListProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605E9AD22BAA07860095585E /* GiftListProduct.swift */; };
+		605E9AD52BAA0E120095585E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605E9AD42BAA0E120095585E /* Product.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6056FB7A2BA8E3EE003C2C69 /* GiftsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6056FB7D2BA8E3EE003C2C69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6056FB7F2BA8E3EE003C2C69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6056FB842BA8E3EE003C2C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6056FB862BA8E3F0003C2C69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6056FB892BA8E3F0003C2C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6056FB8B2BA8E3F0003C2C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6056FB942BA8E444003C2C69 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6056FB962BA8E451003C2C69 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		6056FB982BA8E45B003C2C69 /* GiftListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftListsViewController.swift; sourceTree = "<group>"; };
+		6056FB9A2BA8E464003C2C69 /* GiftListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftListViewController.swift; sourceTree = "<group>"; };
+		6056FB9C2BA8E46E003C2C69 /* CreateGiftListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGiftListViewController.swift; sourceTree = "<group>"; };
+		6056FBAC2BA8EC10003C2C69 /* GiftTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftTableViewCell.swift; sourceTree = "<group>"; };
+		6056FBAD2BA8EC10003C2C69 /* GiftTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GiftTableViewCell.xib; sourceTree = "<group>"; };
+		6056FBB02BA8EC1F003C2C69 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		6056FBB12BA8EC1F003C2C69 /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
+		605E9AD02BAA07590095585E /* GiftList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftList.swift; sourceTree = "<group>"; };
+		605E9AD22BAA07860095585E /* GiftListProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftListProduct.swift; sourceTree = "<group>"; };
+		605E9AD42BAA0E120095585E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6056FB772BA8E3EE003C2C69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6056FBA52BA8E5B2003C2C69 /* PKHUD in Frameworks */,
+				6056FBA02BA8E5A8003C2C69 /* Alamofire in Frameworks */,
+				6056FBA82BA8E5BB003C2C69 /* SwiftyJSON in Frameworks */,
+				6056FBA22BA8E5A8003C2C69 /* AlamofireDynamic in Frameworks */,
+				6056FBAB2BA8E5CA003C2C69 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6056FB712BA8E3EE003C2C69 = {
+			isa = PBXGroup;
+			children = (
+				6056FB7C2BA8E3EE003C2C69 /* GiftsApp */,
+				6056FB7B2BA8E3EE003C2C69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6056FB7B2BA8E3EE003C2C69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6056FB7A2BA8E3EE003C2C69 /* GiftsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6056FB7C2BA8E3EE003C2C69 /* GiftsApp */ = {
+			isa = PBXGroup;
+			children = (
+				6056FB932BA8E42E003C2C69 /* Models */,
+				6056FB922BA8E428003C2C69 /* Views */,
+				6056FB912BA8E420003C2C69 /* View Controllers */,
+				6056FB7D2BA8E3EE003C2C69 /* AppDelegate.swift */,
+				6056FB7F2BA8E3EE003C2C69 /* SceneDelegate.swift */,
+				6056FB832BA8E3EE003C2C69 /* Main.storyboard */,
+				6056FB862BA8E3F0003C2C69 /* Assets.xcassets */,
+				6056FB882BA8E3F0003C2C69 /* LaunchScreen.storyboard */,
+				6056FB8B2BA8E3F0003C2C69 /* Info.plist */,
+			);
+			path = GiftsApp;
+			sourceTree = "<group>";
+		};
+		6056FB912BA8E420003C2C69 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6056FB942BA8E444003C2C69 /* LoginViewController.swift */,
+				6056FB962BA8E451003C2C69 /* RegisterViewController.swift */,
+				6056FB982BA8E45B003C2C69 /* GiftListsViewController.swift */,
+				6056FB9A2BA8E464003C2C69 /* GiftListViewController.swift */,
+				6056FB9C2BA8E46E003C2C69 /* CreateGiftListViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6056FB922BA8E428003C2C69 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6056FBAC2BA8EC10003C2C69 /* GiftTableViewCell.swift */,
+				6056FBAD2BA8EC10003C2C69 /* GiftTableViewCell.xib */,
+				6056FBB02BA8EC1F003C2C69 /* ProductTableViewCell.swift */,
+				6056FBB12BA8EC1F003C2C69 /* ProductTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6056FB932BA8E42E003C2C69 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				605E9AD02BAA07590095585E /* GiftList.swift */,
+				605E9AD22BAA07860095585E /* GiftListProduct.swift */,
+				605E9AD42BAA0E120095585E /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6056FB792BA8E3EE003C2C69 /* GiftsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6056FB8E2BA8E3F0003C2C69 /* Build configuration list for PBXNativeTarget "GiftsApp" */;
+			buildPhases = (
+				6056FB762BA8E3EE003C2C69 /* Sources */,
+				6056FB772BA8E3EE003C2C69 /* Frameworks */,
+				6056FB782BA8E3EE003C2C69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GiftsApp;
+			packageProductDependencies = (
+				6056FB9F2BA8E5A8003C2C69 /* Alamofire */,
+				6056FBA12BA8E5A8003C2C69 /* AlamofireDynamic */,
+				6056FBA42BA8E5B2003C2C69 /* PKHUD */,
+				6056FBA72BA8E5BB003C2C69 /* SwiftyJSON */,
+				6056FBAA2BA8E5CA003C2C69 /* Kingfisher */,
+			);
+			productName = GiftsApp;
+			productReference = 6056FB7A2BA8E3EE003C2C69 /* GiftsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6056FB722BA8E3EE003C2C69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					6056FB792BA8E3EE003C2C69 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 6056FB752BA8E3EE003C2C69 /* Build configuration list for PBXProject "GiftsApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6056FB712BA8E3EE003C2C69;
+			packageReferences = (
+				6056FB9E2BA8E5A8003C2C69 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				6056FBA32BA8E5B2003C2C69 /* XCRemoteSwiftPackageReference "PKHUD" */,
+				6056FBA62BA8E5BB003C2C69 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				6056FBA92BA8E5CA003C2C69 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 6056FB7B2BA8E3EE003C2C69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6056FB792BA8E3EE003C2C69 /* GiftsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6056FB782BA8E3EE003C2C69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6056FB872BA8E3F0003C2C69 /* Assets.xcassets in Resources */,
+				6056FB8A2BA8E3F0003C2C69 /* Base in Resources */,
+				6056FBB22BA8EC1F003C2C69 /* ProductTableViewCell.xib in Resources */,
+				6056FB852BA8E3EE003C2C69 /* Base in Resources */,
+				6056FBAE2BA8EC10003C2C69 /* GiftTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6056FB762BA8E3EE003C2C69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605E9AD32BAA07860095585E /* GiftListProduct.swift in Sources */,
+				6056FB952BA8E444003C2C69 /* LoginViewController.swift in Sources */,
+				605E9AD12BAA07590095585E /* GiftList.swift in Sources */,
+				6056FB7E2BA8E3EE003C2C69 /* AppDelegate.swift in Sources */,
+				6056FBB32BA8EC1F003C2C69 /* ProductTableViewCell.swift in Sources */,
+				605E9AD52BAA0E120095585E /* Product.swift in Sources */,
+				6056FB802BA8E3EE003C2C69 /* SceneDelegate.swift in Sources */,
+				6056FB972BA8E451003C2C69 /* RegisterViewController.swift in Sources */,
+				6056FB9D2BA8E46E003C2C69 /* CreateGiftListViewController.swift in Sources */,
+				6056FB9B2BA8E464003C2C69 /* GiftListViewController.swift in Sources */,
+				6056FB992BA8E45B003C2C69 /* GiftListsViewController.swift in Sources */,
+				6056FBAF2BA8EC10003C2C69 /* GiftTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6056FB832BA8E3EE003C2C69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6056FB842BA8E3EE003C2C69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6056FB882BA8E3F0003C2C69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6056FB892BA8E3F0003C2C69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6056FB8C2BA8E3F0003C2C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6056FB8D2BA8E3F0003C2C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6056FB8F2BA8E3F0003C2C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GiftsApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uncc.GiftsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6056FB902BA8E3F0003C2C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GiftsApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uncc.GiftsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6056FB752BA8E3EE003C2C69 /* Build configuration list for PBXProject "GiftsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6056FB8C2BA8E3F0003C2C69 /* Debug */,
+				6056FB8D2BA8E3F0003C2C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6056FB8E2BA8E3F0003C2C69 /* Build configuration list for PBXNativeTarget "GiftsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6056FB8F2BA8E3F0003C2C69 /* Debug */,
+				6056FB902BA8E3F0003C2C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6056FB9E2BA8E5A8003C2C69 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.0;
+			};
+		};
+		6056FBA32BA8E5B2003C2C69 /* XCRemoteSwiftPackageReference "PKHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pkluz/PKHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
+		6056FBA62BA8E5BB003C2C69 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		6056FBA92BA8E5CA003C2C69 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6056FB9F2BA8E5A8003C2C69 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6056FB9E2BA8E5A8003C2C69 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		6056FBA12BA8E5A8003C2C69 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6056FB9E2BA8E5A8003C2C69 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		6056FBA42BA8E5B2003C2C69 /* PKHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6056FBA32BA8E5B2003C2C69 /* XCRemoteSwiftPackageReference "PKHUD" */;
+			productName = PKHUD;
+		};
+		6056FBA72BA8E5BB003C2C69 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6056FBA62BA8E5BB003C2C69 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		6056FBAA2BA8E5CA003C2C69 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6056FBA92BA8E5CA003C2C69 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6056FB722BA8E3EE003C2C69 /* Project object */;
+}
